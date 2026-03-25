@@ -462,25 +462,63 @@ h3 {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.35rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.4rem;
   width: 100%;
 }
 
 .skill-group {
   display: grid;
   align-content: start;
-  gap: 1rem;
-  padding: 1.5rem;
+  gap: 1.15rem;
+  padding: 1.6rem;
   background:
-    linear-gradient(180deg, var(--surface-muted) 0%, transparent 100%),
+    linear-gradient(180deg, var(--surface-strong) 0%, transparent 100%),
     var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-lg);
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.skill-group:hover,
+.skill-group:focus-within {
+  transform: translateY(-3px);
+  border-color: var(--surface-strong);
 }
 
 .skill-summary {
   background:
     linear-gradient(135deg, var(--surface-strong), transparent),
     var(--surface);
+}
+
+.skill-group h3 {
+  font-size: 1.12rem;
+  letter-spacing: 0.01em;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.skill-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  padding: 0.58rem 0.85rem;
+  border-radius: 999px;
+  background: var(--surface-muted);
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.35;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.skill-tags span:hover {
+  background: var(--surface-strong);
+  transform: translateY(-1px);
 }
 
 .chip-row {
