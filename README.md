@@ -44,7 +44,6 @@ Then visit `http://localhost:8000`
 
 ## Links
 
-- Live Portfolio: https://twly21.github.io/AboutMe/
 - GitHub: https://github.com/TWLY21
 - LinkedIn: https://www.linkedin.com/in/ivestan21714
 - Leave System: https://github.com/TWLY21/leave-system
