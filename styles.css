@@ -742,18 +742,22 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(340px, 0.92fr);
   gap: 2rem;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
 }
 
 .contact-card > div:first-child {
   max-width: 34rem;
+  display: grid;
+  align-content: center;
 }
 
 .contact-links {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 0.8rem;
-  align-content: center;
+  justify-content: center;
+  min-height: 100%;
 }
 
 .icon-links a {
