@@ -622,6 +622,73 @@ h3 {
   color: var(--accent-strong);
 }
 
+.project-subsection {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.project-subheading {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 34rem;
+}
+
+.project-subheading h3,
+.small-project-card h4 {
+  margin: 0;
+  color: var(--text);
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.12;
+}
+
+.project-subheading h3 {
+  font-size: 1.3rem;
+}
+
+.small-project-card h4 {
+  font-size: 1.08rem;
+}
+
+.fun-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.small-project-card {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1.35rem 1.45rem;
+  background:
+    linear-gradient(180deg, var(--surface-muted) 0%, transparent 100%),
+    var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.small-project-card:hover,
+.small-project-card:focus-within {
+  transform: translateY(-3px);
+  border-color: var(--surface-strong);
+}
+
+.small-project-card p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.small-project-card a {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.small-project-card a:hover,
+.small-project-card a:focus-visible {
+  color: var(--accent-strong);
+}
+
 .experience-card,
 .research-card,
 .cta-card {
@@ -802,7 +869,8 @@ h3 {
 
 @media (max-width: 800px) {
   .skills-grid,
-  .projects-grid {
+  .projects-grid,
+  .fun-projects-grid {
     grid-template-columns: 1fr;
   }
 
