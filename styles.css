@@ -740,23 +740,36 @@ h3 {
 
 .contact-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.92fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
   gap: 2rem;
   align-items: center;
   width: 100%;
 }
 
-.contact-card > div:first-child {
+.contact-copy {
   max-width: 34rem;
   display: grid;
   align-content: center;
+  gap: 1.15rem;
 }
 
 .contact-links {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 0.8rem;
   width: 100%;
-  align-self: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+#links .section-heading {
+  gap: 0.7rem;
+}
+
+#links .section-heading h2 {
+  max-width: 10ch;
+  font-size: clamp(2.5rem, 4.6vw, 4.4rem);
+  line-height: 1.04;
 }
 
 .icon-links a {
