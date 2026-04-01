@@ -742,7 +742,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(340px, 0.92fr);
   gap: 2rem;
-  align-items: start;
+  align-items: center;
   width: 100%;
 }
 
@@ -753,7 +753,7 @@ h3 {
 .contact-links {
   display: grid;
   gap: 0.8rem;
-  align-content: start;
+  align-content: center;
 }
 
 .icon-links a {
