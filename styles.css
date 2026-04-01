@@ -251,43 +251,21 @@ main {
 
 .profile-card {
   display: grid;
-  gap: 0.85rem;
+  place-items: center;
   margin: 0;
-  padding: 0.95rem;
-  border: 1px solid var(--divider);
-  border-radius: var(--radius-lg);
-  background:
-    linear-gradient(180deg, var(--surface-strong) 0%, transparent 100%),
-    var(--surface);
+  padding: 0.5rem 0 0.2rem;
 }
 
 .profile-image {
-  width: 100%;
+  width: min(15rem, 100%);
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  object-position: center 28%;
-  border-radius: 16px;
-  border: 1px solid var(--divider);
-}
-
-.profile-card figcaption {
-  display: grid;
-  gap: 0.2rem;
-}
-
-.profile-caption-label {
-  color: var(--accent);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.profile-caption-text {
-  color: var(--text);
-  font-size: 0.94rem;
-  font-weight: 600;
-  line-height: 1.45;
+  object-position: center 24%;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 248, 240, 0.9);
+  box-shadow:
+    0 0 0 1px var(--divider),
+    0 18px 32px rgba(75, 46, 43, 0.12);
 }
 
 .hero-panel-intro {
