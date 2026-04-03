@@ -111,8 +111,6 @@ Then open `http://localhost:8000`.
 - GitHub: https://github.com/TWLY21
 - LinkedIn: https://www.linkedin.com/in/ivestan21714
 - Email: tanives157@gmail.com
-- Leave System: https://github.com/TWLY21/leave-system
-- Mini ERP System: https://github.com/TWLY21/Mini-ERP-System
 
 ## Author
 
