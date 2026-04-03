@@ -1,15 +1,26 @@
 # Ives Tan Kian Hang Portfolio
 
-A personal portfolio website showcasing my background, technical skills, projects, internship experience, and research as a Graduate Software Engineer.
+Personal portfolio website for **Ives Tan Kian Hang**, highlighting software engineering background, technical skills, selected projects, internship experience, and research publication work.
+
 <img width="1267" height="671" alt="image" src="https://github.com/user-attachments/assets/5c200bdf-942a-4e22-9137-0944fb3d94c8" />
+
+## Overview
+
+This portfolio presents:
+
+- professional profile and technical focus
+- skills across languages, frameworks, and tools
+- featured software projects
+- internship and experience highlights
+- published research information
 
 ## Features
 
-- Responsive minimalist portfolio design
-- Light mode by default with dark mode toggle
-- About, Skills, Projects, Experience, Research, and Links sections
-- Smooth scrolling and subtle animations
-- Static site ready for GitHub Pages
+- responsive single-page portfolio layout
+- light mode by default with dark mode toggle
+- sections for About, Skills, Projects, Experience, Research, and Links
+- smooth scrolling and subtle UI animations
+- static deployment ready for GitHub Pages
 
 ## Tech Stack
 
@@ -33,11 +44,11 @@ A personal portfolio website showcasing my background, technical skills, project
 Open `index.html` directly, or run a local server:
 
 ```powershell
-cd C:\Users\User\portfolio-site
+cd C:\Users\User\Projects\portfolio-site
 py -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`
+Then open `http://localhost:8000`.
 
 ## Live Site
 
@@ -48,9 +59,9 @@ Then visit `http://localhost:8000`
 - GitHub: https://github.com/TWLY21
 - LinkedIn: https://www.linkedin.com/in/ivestan21714
 - Leave System: https://github.com/TWLY21/leave-system
-- Mini ERP: https://github.com/TWLY21/Mini-ERP-System
+- Mini ERP System: https://github.com/TWLY21/Mini-ERP-System
 
 ## Author
 
-Ives Tan Kian Hang
+Ives Tan Kian Hang  
 Graduate Software Engineer
