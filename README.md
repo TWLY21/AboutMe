@@ -1,6 +1,7 @@
 # Ives Tan Kian Hang Portfolio
 
 A personal portfolio website showcasing my background, technical skills, projects, internship experience, and research as a Graduate Software Engineer.
+<img width="1267" height="671" alt="image" src="https://github.com/user-attachments/assets/5c200bdf-942a-4e22-9137-0944fb3d94c8" />
 
 ## Features
 
