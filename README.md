@@ -112,6 +112,15 @@ Then open `http://localhost:8000`.
 - LinkedIn: https://www.linkedin.com/in/ivestan21714
 - Email: tanives157@gmail.com
 
+## License and Content Notice
+
+- Source code in this repository is licensed under the MIT License. See [LICENSE](LICENSE).
+- Personal content is not covered by MIT and remains all rights reserved. This includes:
+- profile photos and personal images
+- personal biography text and identity details
+- personal branding and portfolio-specific written content
+- For reuse of personal content, please request written permission from the author.
+
 ## Author
 
 Ives Tan Kian Hang  
